@@ -48,7 +48,7 @@ public class Order {
 
         for (Data element: data){
             if (element.getType().equals("bun")){
-                hashBuns.put(element.getName(), element.get_id());
+                hashBuns.put(element.getName(), element.getId());
             }
         }
         return  hashBuns;
@@ -60,7 +60,7 @@ public class Order {
 
         for (Data element: data){
             if (element.getType().equals("main")){
-                hashMains.put(element.getName(), element.get_id());
+                hashMains.put(element.getName(), element.getId());
             }
         }
         return  hashMains;
@@ -72,7 +72,7 @@ public class Order {
 
         for (Data element: data){
             if (element.getType().equals("sauce")){
-                hashSauces.put(element.getName(),element.get_id());
+                hashSauces.put(element.getName(),element.getId());
             }
         }
         return hashSauces;

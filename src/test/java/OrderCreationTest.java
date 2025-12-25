@@ -6,8 +6,6 @@ import net.datafaker.Faker;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.junit.MockitoJUnitRunner;
 import serialization.ProfileUser;
 
 import java.util.List;
@@ -15,7 +13,6 @@ import java.util.List;
 import static org.apache.http.HttpStatus.*;
 import static org.hamcrest.Matchers.*;
 
-@RunWith(MockitoJUnitRunner.class)
 public class OrderCreationTest {
     Faker faker;
 

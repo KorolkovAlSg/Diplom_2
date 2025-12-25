@@ -1,17 +1,18 @@
 package deserialization;
 
-public class Data {
+import com.google.gson.annotations.SerializedName;
 
-    private String _id;
+public class Data {
+    @SerializedName("_id") private String id;
     private String name;
     private String type;
 
-    public String get_id() {
-        return _id;
+    public String getId() {
+        return id;
     }
 
-    public void set_id(String _id) {
-        this._id = _id;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getName() {
